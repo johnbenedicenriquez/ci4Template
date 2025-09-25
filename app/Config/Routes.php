@@ -14,7 +14,7 @@ $routes->get('home', 'Home::index');
 $routes->get('about', 'Home::about');
 $routes->get('services', 'Home::services');
 $routes->get('contact', 'Home::contact');
-$routes->get('contact', 'Home::puihaha');
+
 
 // Registration routes
 $routes->get('register', 'Registration::index');
