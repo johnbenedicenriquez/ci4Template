@@ -12,7 +12,6 @@ $routes->get('/', 'Home::index');
 // Homepage routes
 $routes->get('home', 'Home::index');
 $routes->get('about', 'Home::about');
-
 $routes->get('services', 'Home::services');
 $routes->get('contact', 'Home::contact');
 
